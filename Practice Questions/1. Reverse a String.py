@@ -1,8 +1,10 @@
-#  Reverse a String
-# Write a function to reverse a string without using slicing ([::-1]).
-# Example
-# Input: "python"
-# Output: "nohtyp"
+'''
+Reverse a String
+Write a function to reverse a string without using slicing ([::-1]).
+Example
+Input: "python"
+Output: "nohtyp"
+'''
 
 input_string = "python"
 
