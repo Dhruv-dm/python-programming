@@ -35,7 +35,9 @@ reverse_string(input_string)
 # --------using Two Pointer Swapping Approach--------
 
 def reverser_two_pointer_swapping(input_string):
-    chars = list(input_string)
+
+    # Conversion to list as strings are immutable in Python, Lists are mutable.
+    chars = list(input_string) 
 
     # Defining Two points
     left = 0
