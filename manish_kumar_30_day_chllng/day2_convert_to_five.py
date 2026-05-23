@@ -7,15 +7,31 @@ Explanation: There are two zeroes in 1004 on replacing all zeroes with 5, the ne
 
 n = 1004
 st = str(n)
-lst= []
 
-for i in st:
-    lst.append(i)
+# ---------- approach 1 -----------
 
-for k in range(len(lst)):
+
+# Strings are immutable and do not allow character assignment
+# so converting the string to lst for character assignment
+
+lst = list(st)
+
+for k in range(len(lst)): 
     if lst[k] == '0':
         lst[k] = '5'
 
-res = ''.join(lst)
+res = ''.join(lst) # converting the list into string
 result = int(res)
 print(result)
+
+
+# ---------- approach 2 -----------
+
+res = ''
+for k in range(len(st)):
+    if st[k] == '0':
+       res += '5'
+    else:
+        res += st[k]
+
+print(int(res))

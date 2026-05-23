@@ -1,0 +1,13 @@
+we have a string 
+
+st = 'Hello'
+
+if i do
+
+lst = [st]
+#o/p- ['Hello']
+
+but, if i do
+
+lst = list(st)
+#o/p- ['H','e','l','l','o']
