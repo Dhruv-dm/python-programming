@@ -26,6 +26,7 @@ print(result)
 
 
 # ---------- approach 2 -----------
+# Concatinating the string
 
 res = ''
 for k in range(len(st)):
