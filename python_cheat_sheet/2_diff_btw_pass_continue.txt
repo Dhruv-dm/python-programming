@@ -1,0 +1,17 @@
+Pass is a placeholder. It tells Python “do nothing here” and is often used when a statement is 
+syntactically required but you don’t want any action yet.
+
+for i in range(5):
+    if i == 2:
+        pass  # do nothing
+    print(i)
+
+--------------------------------------------------------------
+
+Continue — skip to next iteration
+continue skips the rest of the current loop iteration and moves to the next one.
+
+for i in range(5):
+    if i == 2:
+        continue  # skip this iteration
+    print(i)
